@@ -1,13 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import logo from './logo.svg';
 import './App.css';
-import PlayerAd from './components/PlayerAd';
+import AdsList from './components/AdsList';
+import NewAd from './components/NewAd';
 
 function App() {
 	return (
-		<div className="App">
-			<PlayerAd />
-		</div>
+		<Router>
+			<Switch>
+				<Route path="/" exact component={AdsList} />
+				<Route path="/NewAd" component={NewAd} />
+			</Switch>
+		</Router>
 	);
 }
 

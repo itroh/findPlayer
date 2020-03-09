@@ -1,0 +1,87 @@
+/* LIST CONTAINER*/
+.List_Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #020d11;
+	color: white;
+}
+
+/* ENTETE */
+.Entete {
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 80%;
+	justify-content: space-around;
+	align-items: center;
+}
+.Main_Button {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+	font-weight: 500;
+
+	border-color: #2ea3f2;
+	background-color: #020d11;
+	color: white;
+
+	padding: 10px 15px;
+	border: 2px solid rgba(65, 192, 240, 1);
+	float: right;
+	cursor: pointer;
+}
+
+/* LIST */
+.List {
+	/* justify-content: space-around; */
+	align-items: center;
+	max-width: 1000px;
+}
+
+/*PlayerAd style*/
+.Ad_Box {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	padding: 10px;
+	text-align: left;
+	border: 2px solid rgba(65, 192, 240, 0.5);
+}
+/* .Ad_Content {
+	display: flex;
+	flex-direction: column;
+} */
+.Ad_Content_Info {
+	margin-top: 0px;
+}
+.Ad_Content_Description {
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.Ad_Button {
+	padding: 10 15px;
+	border: 2px solid rgba(65, 192, 240, 1);
+	width: 100px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	background-color: #020d11;
+	color: white;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	color: rgba(65, 192, 240, 1);
+}
+
+h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
